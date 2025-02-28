@@ -1,0 +1,79 @@
+<main class="maintenance-app">
+  <header class="header">
+    <h1 class="title">MAINTLedger</h1>
+  </header>
+
+  <div class="content-wrapper">
+    <h2 class="section-title">Input Parameter</h2>
+
+    <div class="main-content">
+      <div class="content-grid">
+        <section class="parameters-section">
+          <form class="input-form">
+            <div class="input-group">
+              <label class="parameter-label"
+                >Machine Type [Small, Large, Medium]</label
+              >
+              <input type="text" class="parameter-input" />
+            </div>
+
+            <div class="input-group">
+              <label class="parameter-label">Air Temperature[K]</label>
+              <input type="text" class="parameter-input" />
+            </div>
+
+            <div class="input-group">
+              <label class="parameter-label">Machine Heat Level[K]</label>
+              <input type="text" class="parameter-input" />
+            </div>
+
+            <div class="input-group">
+              <label class="parameter-label">Rotational Speed [rpm]</label>
+              <input type="text" class="parameter-input" />
+            </div>
+
+            <div class="input-group">
+              <label class="parameter-label">Twisting Power[N/M]</label>
+              <input type="text" class="parameter-input" />
+            </div>
+
+            <div class="input-group">
+              <label class="parameter-label">Tool Usage Time[Min]</label>
+              <input type="text" class="parameter-input" />
+            </div>
+          </form>
+        </section>
+
+        <section class="results-section">
+          <div class="results-container">
+            <div class="result-group">
+              <label class="result-label">Result</label>
+              <div class="result-display"></div>
+            </div>
+
+            <div class="result-group">
+              <label class="result-label">probability</label>
+              <div class="result-display"></div>
+            </div>
+
+            <div class="result-group">
+              <label class="result-label">Maintenance</label>
+              <div class="result-display"></div>
+            </div>
+
+            <button class="generate-button">Generate Again</button>
+
+            <div class="exit-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c76676ff7d6690a155f3e947df80d6723a547e344e83ee13acb153937a49b6e?placeholderIfAbsent=true&apiKey=6d4aa8a2ef3248aa9e2720980d249dd0"
+                alt="Exit icon"
+                class="exit-icon"
+              />
+              <span>Get Out</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
