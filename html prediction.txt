@@ -1,0 +1,77 @@
+<main class="page-container">
+  <div class="content-wrapper">
+    <header class="header-banner">
+      <h1 class="header-title">MAINTLedger</h1>
+    </header>
+
+    <section class="main-content">
+      <h2 class="section-title">Input Parameter</h2>
+
+      <div class="form-container">
+        <div class="form-layout">
+          <section class="input-section">
+            <form class="parameter-form">
+              <div class="input-group">
+                <label class="parameter-label"
+                  >Machine Type [Small, Large, Medium]</label
+                >
+                <input type="text" class="parameter-input" />
+              </div>
+
+              <div class="input-group">
+                <label class="parameter-label">Air Temperature[K]</label>
+                <input type="text" class="parameter-input" />
+              </div>
+
+              <div class="input-group">
+                <label class="parameter-label">Machine Heat Level[K]</label>
+                <input type="text" class="parameter-input" />
+              </div>
+
+              <div class="input-group">
+                <label class="parameter-label">Rotational Speed [rpm]</label>
+                <input type="text" class="parameter-input" />
+              </div>
+
+              <div class="input-group">
+                <label class="parameter-label">Twisting Power[N/M]</label>
+                <input type="text" class="parameter-input" />
+              </div>
+
+              <div class="input-group">
+                <label class="parameter-label">Tool Usage Time[Min]</label>
+                <input type="text" class="parameter-input" />
+              </div>
+            </form>
+          </section>
+
+          <section class="results-section">
+            <div class="results-container">
+              <div class="result-group">
+                <label class="result-label">Result</label>
+                <div class="result-display"></div>
+
+                <label class="result-label">probability</label>
+                <div class="result-display"></div>
+
+                <label class="result-label">Maintenance</label>
+                <div class="result-display"></div>
+              </div>
+
+              <button class="generate-button">Generate Again</button>
+
+              <div class="exit-button">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c76676ff7d6690a155f3e947df80d6723a547e344e83ee13acb153937a49b6e?placeholderIfAbsent=true&apiKey=6d4aa8a2ef3248aa9e2720980d249dd0"
+                  alt="Exit icon"
+                  class="exit-icon"
+                />
+                <span>Get Out</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
