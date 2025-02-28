@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAINTLedger - Smart Equipment Maintenance</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Inter:wght@300;400;500&family=Jeju+Gothic&family=Inder&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="maintledger">
+      <header class="site-header">MAINTLedger</header>
+
+      <section class="hero">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2514fe430088d501c6bad6db20efcfe7e07ed9a"
+          alt="City skyline"
+          class="hero-image"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Welcome to MAINTLedger
+            <br />
+            – Smart Equipment Maintenance
+          </h1>
+          <p class="hero-description">
+            MAINTLedger is an AI-driven predictive maintenance platform that
+            helps businesses
+            <br />
+            prevent unexpected equipment failures.
+          </p>
+          <button class="get-in-button">Get In</button>
+        </div>
+      </section>
+
+      <section class="what-is">
+        <h2 class="what-is-title">What is MAINTLedger?</h2>
+        <p class="what-is-description">
+          MAINTLedger is an intelligent predictive maintenance platform designed
+          to help businesses monitor equipment health, detect anomalies, and
+          prevent unexpected failures. It ensures smooth operations by analyzing
+          historical data and providing timely alerts and insights.
+        </p>
+      </section>
+
+      <section class="help">
+        <h2 class="help-title">How Does It Help You?</h2>
+        <div class="help-cards">
+          <article class="help-card">
+            <h3 class="card-title">Predict Equipment Failures</h3>
+            <p class="card-description">
+              Get early warnings before machines break down.
+            </p>
+          </article>
+          <article class="help-card">
+            <h3 class="card-title">Detect Anomalies</h3>
+            <p class="card-description">
+              Identify unusual equipment behavior and receive real-time alerts.
+            </p>
+          </article>
+          <article class="help-card">
+            <h3 class="card-title">Secure Data Storage</h3>
+            <p class="card-description">
+              Safely log and track maintenance records with tamper-proof
+              storage.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="why-use">
+        <h2 class="why-use-title">Why Use MAINTLedger?</h2>
+        <div class="why-use-content">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/60c545ad073f648a84a20f9a2be75725913d9330"
+            alt="Analytics dashboard"
+            class="analytics-image"
+          />
+          <div class="feature-cards">
+            <article class="feature-card feature-card--green">
+              <h3 class="feature-title">Minimize Downtime</h3>
+              <p class="feature-description">
+                Avoid costly
+                <br />
+                breakdowns
+                <br />
+                and interruptions
+              </p>
+            </article>
+            <article class="feature-card feature-card--light">
+              <h3 class="feature-title">
+                Improve Maintenance
+                <br />
+                Planning
+              </h3>
+              <p class="feature-description">
+                Optimize servicing
+                <br />
+                schedules for
+                <br />
+                efficiency
+              </p>
+            </article>
+            <article class="feature-card feature-card--light">
+              <h3 class="feature-title">
+                Monitor Equipment
+                <br />
+                Performance
+              </h3>
+              <p class="feature-description">
+                Stay informed with
+                <br />
+                easy-to-read
+                <br />
+                reports
+              </p>
+            </article>
+            <article class="feature-card feature-card--green">
+              <h3 class="feature-title">Receive Instant Alerts</h3>
+              <p class="feature-description">
+                Get notified when
+                <br />
+                an issue needs
+                <br />
+                attention
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
